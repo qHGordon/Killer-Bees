@@ -1,11 +1,13 @@
 .Header {
-    background-color: yellow;
+    font-size: 32pt;
     position: relative;
     display: inline-block;
+    padding: 0.35em 1em;
+    margin-bottom: 0.6em;
 }
 
 .inner {
-
+    padding: 2em 0 2em 0;
 }
 
 .about {
@@ -37,6 +39,10 @@ html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, tex
 
 body {
     font-family: "Verdana";
+    font-size: 14pt;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    color: azure;
 }
 
 *::before, *::after {
