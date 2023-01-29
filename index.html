@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+    <title>Killer Bees</title>
     <link rel="stylesheet" href="MainPage.css">
+    <!--For swiping through profiles-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
     <section class="title">
         <div class="inner">
             <h1 class="Header">Killer Bees</h1>
@@ -20,13 +25,28 @@
             <li class="profile">P4</li>
             <li class="profile">P5</li>
         </ul>
+        <!-- Slider main container -->
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide_1">Slide 1</div>
+                <div class="swiper-slide slide_2">Slide 2</div>
+                <div class="swiper-slide slide_3">Slide 3</div>
+                <div class="swiper-slide slide_4">Slide 4</div>
+                <div class="swiper-slide slide_5">Slide 5</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </section>
-    <section class="trademark">©2023 Killer Bees. Queen's University</section>
+    <section class="trademark">©2023 Killer Bees | Queen's University</section>
+
+    <!--
     <button onclick="window.location.href='https://qhgordon.github.io/Killer-Bees.github.io/'">Home</button>
     <button onclick="window.location.href='testfile.html'">A1. Conceptual Architecture </button>
     <button onclick="window.location.href='testfile.html'">A2. Concrete Architecture  </button>
     <button onclick="window.location.href='testfile.html'">A3. Architectural Enhancement  </button>
     <button onclick="window.location.href='member_Information.html'">About us</button>
     -->
+    <!--For swiping-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
