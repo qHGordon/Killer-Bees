@@ -1,0 +1,14 @@
+.Header {
+    font-size: 50px;
+    color: black;
+}
+h2.h2List {
+    text-indent: 20px;
+    font-size: 30px;
+    color: black;
+}
+.myList li {
+    text-indent: 30px;
+    font-size: 20px;
+    color: black;
+}
