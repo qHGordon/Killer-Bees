@@ -21,7 +21,7 @@
 }
 
 .about {
-    height: 80vh;
+    height: 65vh;
     padding: 3em 0 3em 0;
     position: relative;
     color: black;
@@ -76,8 +76,14 @@
    outline: none;
 }
 
-.swiper-scrollbar {
+.swiper-container > .swiper-scrollbar {
     bottom: 10px !important;
+    width: 10vw !important;
+    left: 50% !important;
+}
+
+.swiper-scrollbar-drag {
+
 }
 
 section {

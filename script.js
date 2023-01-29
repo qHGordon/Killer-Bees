@@ -1,8 +1,4 @@
 var mySwiper = new Swiper ('.swiper-container', {
-    observer: true,
-    observeParents: true,
-    parallax:true,
-    loop: true,
     slidesPerView: 3,
     spaceBetween: 10,
     naviagtion: {
