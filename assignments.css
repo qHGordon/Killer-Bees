@@ -1,23 +1,70 @@
 .Header {
-    background-color: rgb(15, 15, 14);
-    height: 3em;
+    background-color: rgb(29, 52, 71);
+    height: 4em;
     left: 0;
-    line-height: 3em;
-    width: 100%;
-    font-size: 20pt;
+    line-height: 4em;
+    font-size: 14pt;
     position: fixed;
     top: 0;
-    display: box;
     z-index: 10000;
+    width:100%;
+}
+
+#title {
+    text-align: left;
+    position:absolute;
+    left: 1.25em;
+}
+
+.nav {
+    line-height: inherit;
+    height: inherit;
+    position:absolute;
+    top:0;
+    right:0;
 }
 
 #main {
+    height:1000px;
+    position: relative;
+    display:block;
+}
+
+section {
+    text-align: center;
+    font-size: 15px;
+}
+
+.innerhead {
+    font-family: "Verdana";
+    font-size: 14pt;
+    letter-spacing: 0.2em;
+    line-height: 2.5em;
+    height:50%;
+    color: azure;
+    text-align: center;
     background-color: rgb(131, 127, 69);
-    height:500px;
-    /*left: 0;*/
-    width: 100%;
-    display: box;
-    /*top: 0; */
+    padding: 9em 0 3em 0;
+    align-self: center;
+    display:block;
+}
+
+.assignment-body {
+    /*background-color: aqua;*/
+    height: 300px;
+    color:black;
+}
+
+.trademark {
+    background-color: rgb(34, 31, 31);
+    padding: 5em 0 3em 2em;
+    text-align: left;
+    height:1vh;
+    position:relative;
+    align-self: center;
+    display:block;
+   
+
 }
 
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
