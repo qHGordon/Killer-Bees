@@ -48,7 +48,7 @@
     border: 3px solid rgb(29, 52, 71);
     background-size: cover;
     background-position: 50%;
-    min-height: 20vh; // sets the minimum height of an element
+    min-height: 20vh; /* sets the minimum height of an element */
     height: 40vh !important;
     
     display: flex;
