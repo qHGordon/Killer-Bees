@@ -10,22 +10,25 @@
     padding: 2em 0 2em 0;
 }
 
-.about {
-    padding: 3em 0 3em 0;
-    
-}
-
-.trademark {
-
-}
-
 .title {
+    font-size: 13pt;
     height: 100vh;
     min-height: 35em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: rgb(29, 52, 71);
+}
+
+.about {
+    padding: 3em 0 3em 0;
+    
+}
+
+.trademark {
+    background-color: rgb(34, 31, 31);
+    padding: 3em 0 3em 4em;
+    text-align: left;
 }
 
 section {
@@ -39,7 +42,7 @@ html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, tex
 
 body {
     font-family: "Verdana";
-    font-size: 14pt;
+    font-size: 10pt;
     letter-spacing: 0.2em;
     line-height: 1.5em;
     color: azure;
