@@ -88,6 +88,18 @@ section {
    
 }
 
+.sidebar {
+    display:block;
+    position: fixed;
+    height: 100%;
+    width:30%;
+    top: 5em;
+    right:0;
+    background-color: rgb(29, 52, 71);
+    z-index: 100;
+    line-height: 5em;
+}
+
 .page-wrapper {
     display:block;
     position: fixed;
