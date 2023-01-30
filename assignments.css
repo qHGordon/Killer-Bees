@@ -33,6 +33,7 @@
     position:absolute;
     top:1.25em;
     padding-left: 0.75em;
+    cursor: pointer;
 }
 
 .menuButton::before {
@@ -89,7 +90,8 @@ section {
 }
 
 .sidebar {
-    display:block;
+    visibility: hidden;
+    display: block;
     position: fixed;
     height: 100%;
     width:30%;
@@ -100,7 +102,12 @@ section {
     line-height: 5em;
 }
 
+.menuOpen .sidebar{
+    visibility: visible;
+}
+
 .page-wrapper {
+    visibility: hidden;
     display:block;
     position: fixed;
     z-index: 1;
@@ -112,6 +119,19 @@ section {
     opacity:0.5;
     background-color: rgb(83, 87, 36);
     background-color: rgba(0,0,0,0,4);
+}
+
+.menuOpen .page-wrapper {
+    visibility: visible;
+}
+
+.menu {
+    text-decoration: none;
+    color: azure;
+}
+
+.menu:hover {
+    color: rgb(176, 190, 190);
 }
 
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
