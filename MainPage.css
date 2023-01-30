@@ -5,6 +5,11 @@
     display: inline-block;
     padding: 0.35em 1em;
     margin-bottom: 0.6em;
+    transform: translateY(12px);
+}
+
+.headerInfo {
+    transform: translateY(12px);
 }
 
 .inner {
@@ -18,7 +23,98 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: rgb(29, 52, 71);
+}
+
+.hex-container {
+    margin:0;
+    padding:0;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hex-container .hexagonArea {
+    display: flex;
+}
+
+.hex-container .hexagonArea.first {
+    transform: translateY(0px);
+}
+
+.hex-container .hexagonArea.middle {
+    transform: translateY(-15px);
+}
+
+.hex-container .hexagonArea.last {
+    transform: translateY(-30px);
+}
+
+.hex-container .hexagonArea .hexagon {
+    position: relative;
+    width: 100px;
+    height: 125px;
+    margin: 0 10px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: #926921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.hex-container .hexagonArea .hexagon.inner {
+    position: relative;
+    width: 100px;
+    height: 125px;
+    margin: 0 10px;
+    clip-path: polygon(5% 27.5%, 50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%);
+    background: #F7E346;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.hex-container .hexagonArea .hexagon:hover {
+    /* background: #F8E195; */
+    transform: scale(0.95);
+}
+
+.hex-container .hexagonArea .hexagon.inner:hover {
+    background: #F8E195;
+    transform: scale(0.95);
+}
+
+.hex-font-small {
+    color:rgb(29, 52, 71);
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 8pt;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hex-font-large {
+    color:rgb(29, 52, 71);
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 20pt;
+    letter-spacing: 0.1em;
+}
+
+.no-underline {
+    text-decoration: none;
 }
 
 /*========================= About =========================*/

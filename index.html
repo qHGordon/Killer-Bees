@@ -9,6 +9,62 @@
 <body>
     <section class="title">
         <div class="inner">
+            <div class="hex-container">
+                <div class="hexagonArea first">
+                    <div class="hexagon">
+                        <div class="hexagon inner">
+                            <a href="https://bitcoin.org/en/bitcoin-core/" target="_blank" class="no-underline">
+                            <div class="hex-font-small">ABOUT BITCOIN CORE</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hexagon">
+                        <div class="hexagon inner">
+                            <a href="https://github.com/bitcoin/bitcoin" target="_blank" class="no-underline">
+                            <div class="hex-font-small">SOURCE CODE</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hexagonArea middle">
+                    <div class="hexagon">
+                        <div class="hexagon inner">
+                            <a href="A1.html" class="no-underline">
+                            <div class="hex-font-large">A1</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hexagon">
+                        <div class="hexagon inner">
+                            <a href="A1.html" class="no-underline">
+                            <div class="hex-font-large">A2</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hexagon">
+                        <div class="hexagon inner">
+                            <a href="A1.html" class="no-underline">
+                            <div class="hex-font-large">A3</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hexagonArea last">
+                    <div class="hexagon">
+                        <div class="hexagon inner">
+                            <div class="hex-font-small" id="about-us">ABOUT US</div>
+                        </div>
+                    </div>
+                    <div class="hexagon">
+                        <div class="hexagon inner">
+                            <a href="mailto:20at6@queensu.ca,curtis.heinzl@queensu.ca,20mw6@queensu.ca,20jw8@queensu.ca,20sq@queensu.ca,20wx10@queensu.ca" target="_blank" class="no-underline">
+                            <div class="hex-font-small">EMAIL</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <h1 class="Header">KILLER BEES</h1>
             <div class="headerInfo">
                 <p>CISC 326 / CISC/CMPE 322 - Winter 2023</p>
@@ -86,5 +142,14 @@
     <!--For swiping-->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        const scrollBtn = document.getElementById("about-us");
+        scrollBtn.addEventListener("click", function() {
+          window.scrollTo({
+            top: 1000, // specify the number of pixels to scroll
+            behavior: "smooth" // optional: makes the scroll smooth
+          });
+        });
+      </script>
 </body>
 </html>
