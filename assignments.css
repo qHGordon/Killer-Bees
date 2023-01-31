@@ -80,13 +80,9 @@ section {
 
 .trademark {
     background-color: rgb(34, 31, 31);
-    padding: 5em 0 3em 2em;
+    padding: 3em 0 3em 4em;
     text-align: left;
-    height:1vh;
-    position:relative;
-    align-self: center;
-    display:block;
-   
+    font-size: 10pt;
 }
 
 .sidebar {
@@ -142,7 +138,7 @@ html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, tex
 
 body {
     font-family: "Verdana";
-    font-size: 14pt;
+    font-size: 10pt;
     letter-spacing: 0.2em;
     line-height: 1.5em;
     color: azure;

@@ -12,3 +12,13 @@ var mySwiper = new Swiper ('.swiper-container', {
       draggable: true,
     },
   })
+
+  window.addEventListener("scroll", function() {
+    var body = document.body;
+    var elementTarget = document.getElementById("scr");
+    if (window.scrollY > (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+      body.classList.add("scrollnow");
+    } else {
+      body.classList.remove("scrollnow");
+    }
+  });
