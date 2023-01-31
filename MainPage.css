@@ -261,12 +261,49 @@
 }
 
 .scroll {
-    width: 33%;
+    width: 30%;
     height: 100%;
+    background-color: rgb(227, 227, 255);
+    padding-top: 5%;
+    padding-left: 10%;
+    text-align: left;
+}
 
+.menuOpt {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: rgb(30, 53, 72);
+}
+
+.menuOpt h1 {
+    height: 70px
+}
+
+.close {
+    content: "";
+    background-image: url("assets/img/close.svg");
+    background-size: 2rem;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 2rem;
+    width: 2rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.menuOpt h1:hover {
+    color: rgb(83, 121, 151);
+    transition: 0.2s;
 }
 
 .menu {
+    font-size: 20pt;
     display: flex;
     position: fixed;
     flex-direction: row-reverse;
@@ -276,6 +313,7 @@
     left: 0;
     z-index: 100;
     transform: translate(100vw, 0);
+    transition: transform 1.15s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .menuOpen .menu {
