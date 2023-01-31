@@ -115,6 +115,7 @@
 
 .no-underline {
     text-decoration: none;
+    color: inherit;
 }
 
 .circleContainer {

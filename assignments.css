@@ -144,6 +144,11 @@ body {
     color: azure;
 }
 
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
 *::before, *::after {
     box-sizing: border-box;
 }
