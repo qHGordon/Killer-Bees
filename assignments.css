@@ -75,7 +75,13 @@ section {
 .assignment-body {
     /*background-color: aqua;*/
     height: 300px;
+    display: flex;
+    flex-direction: column;
     color:black;
+}
+
+.assignment-body div {
+    flex-grow: 1;
 }
 
 .trademark {
