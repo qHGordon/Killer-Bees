@@ -48,9 +48,10 @@
 }
 
 #main {
-    height:1000px;
+    /* height:1000px; */
     position: relative;
     display:block;
+    background-color: rgb(186, 182, 130);
 }
 
 section {
@@ -67,16 +68,20 @@ section {
     color: azure;
     text-align: center;
     background-color: rgb(131, 127, 69);
-    padding: 9em 0 3em 0;
+    padding: 7em 0 3em 0;
     align-self: center;
     display:block;
 }
 
 .assignment-body {
     /*background-color: aqua;*/
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 2em;
     color:black;
 }
 
