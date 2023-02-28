@@ -80,13 +80,33 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
-    margin: 2em;
+    gap: 4em;
+    padding: 4em;
     color:black;
 }
 
 .assignment-body div {
     flex-grow: 1;
+}
+
+.embed-container {
+    background-color: rgb(221, 218, 180);
+    padding: 2em;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.embed-object {
+    /* padding-bottom: 2em; */
+    width: 95%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* height: 320px; */
+}
+
+.embed-label {
+    margin-top: 1em;
+    color:rgb(29, 52, 71)
 }
 
 .trademark {
